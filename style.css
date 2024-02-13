@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    /* background-color: aquamarine; */
+}
+
+#nav{
+    display: flex;
+    /* align-items: ; */
+    justify-content: space-between;
+    /* height: 100px; */
+    width: 100%;
+    /* background-color: rgb(255, 0, 76); */
+    padding: 40px 60px;
+}
+#nav-part1{
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+}
+#nav-part2{
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+}
+#nav h2{
+    font-size: 22px;
+    font-weight: 600;
+}
+#nav h3{
+    font-size: 22px;
+    font-weight: 600;
+}
+#nav h4{
+    font-size: 22px;
+    font-weight: 600;
+}
+#content{
+    margin-top: 50px;
+    padding: 35px 60px;
+}
+#content h3{
+    font-size: 30px;
+    font-weight: 600;
+}
+#content h1{
+    margin: 40px;
+    font-size: 140px;
+    font-weight: 430;
+    line-height: 150px; 
+    letter-spacing: -8px;
+    word-spacing: 10px;
+} 
+#case{
+    padding: 40px 65px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#case h4{
+    font-size: 24px;
+    font-weight: 600;
+}#case h5{
+    font-size: 24px;
+    font-weight: 600;
+}
+#right{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+#line{
+    height: 2px;
+    width: 160px;
+    background-color: #000;
+}
+
+#projects{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+    gap: 60px;
+}
+.elem{
+    width: 50%;
+}
+.elem-img{
+    height: 480px;
+    background-color:  rgb(173, 209, 220);  
+    width: 600px;
+    border-radius: 30px;
+    background-size: cover;
+    background-position: center;
+}
+#img1{
+    background-image: url(https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/4c/9c/d8/4c9cd8c3-e655-2245-cc26-ff7953d47d0a/AppIcon-0-1x_U007emarketing-0-7-0-P3-85-220.png/230x0w.webp);
+}
+#img2{
+    background-image: url(https://cdn.dribbble.com/users/6579372/screenshots/18149976/media/e5d611cbbf9c08a82fc195cf419e1b06.png?resize=768x576&vertical=center);
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+.bottom i{
+    padding: 14px 30px;
+    font-size: 22px;
+    border: 2px solid #000;
+    border-radius: 50px;
+    font-weight: 800;
+}
+.bottom i:hover{
+    background-color: #000;
+    color: #fff;
+}
+.bottom h2{
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}.bottom h4{
+    font-size: 22px;
+    color: #969696; 
+    font-weight: 500;
+    margin-bottom: 10px;
+}
